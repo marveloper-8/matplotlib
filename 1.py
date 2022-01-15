@@ -54,22 +54,31 @@
 # plt.grid(color='green', linestyle='--', linewidth=0.5)
 # plt.show()
 
+# import matplotlib.pyplot as plt
+# import numpy as np
+
+# a = np.array([0, 1, 2, 3])
+# b = np.array([3, 8, 1, 10])
+
+# plt.subplot(1, 2, 1)
+# plt.plot(a, b)
+# plt.title('SALES')
+
+# a = np.array([0, 1, 2, 3])
+# b = np.array([10, 20, 30, 40])
+
+# plt.subplot(1, 2, 2)
+# plt.plot(a, b)
+# plt.title('INCOME')
+
+# plt.suptitle=('MY SHOP')
+# plt.show()
+
 import matplotlib.pyplot as plt
 import numpy as np
 
-a = np.array([0, 1, 2, 3])
-b = np.array([3, 8, 1, 10])
+a = np.array([5, 7, 8, 7, 2, 17, 2, 9, 4, 11, 12, 9, 6])
+b = np.array([99, 86, 87, 88, 111, 86, 103, 87, 94, 78, 77, 85, 86])
 
-plt.subplot(1, 2, 1)
-plt.plot(a, b)
-plt.title('SALES')
-
-a = np.array([0, 1, 2, 3])
-b = np.array([10, 20, 30, 40])
-
-plt.subplot(1, 2, 2)
-plt.plot(a, b)
-plt.title('INCOME')
-
-plt.suptitle=('MY SHOP')
+plt.scatter(a, b)
 plt.show()
