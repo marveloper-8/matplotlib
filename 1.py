@@ -74,13 +74,22 @@
 # plt.suptitle=('MY SHOP')
 # plt.show()
 
+# import matplotlib.pyplot as plt
+# import numpy as np
+
+# a = np.random.randint(100, size=(100))
+# b = np.random.randint(100, size=(100))
+# c = np.random.randint(100, size=(100))
+# plt.scatter(a, b, c=c, cmap='copper_r', s=c, alpha=0.5)
+
+# plt.colorbar()
+# plt.show()
+
 import matplotlib.pyplot as plt
 import numpy as np
 
-a = np.random.randint(100, size=(100))
-b = np.random.randint(100, size=(100))
-c = np.random.randint(100, size=(100))
-plt.scatter(a, b, c=c, cmap='copper_r', s=c, alpha=0.5)
+a = np.array(["A", "B", "C", "D"])
+b = np.array([3, 8, 1, 10])
 
-plt.colorbar()
+plt.bar(a, b)
 plt.show()
