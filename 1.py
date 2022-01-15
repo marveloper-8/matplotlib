@@ -46,7 +46,7 @@ c = {'family': 'serif', 'color': 'blue', 'size': 20}
 d = {'family': 'serif', 'color': 'darkred', 'size': 15}
 
 
-plt.title("Sports Watch Data", fontdict=c)
+plt.title("Sports Watch Data", fontdict=c, loc='left')
 plt.xlabel("Average Pulse", fontdict=d)
 plt.ylabel("Calorie Burnage", fontdict=d)
 
