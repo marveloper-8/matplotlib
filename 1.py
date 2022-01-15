@@ -80,7 +80,7 @@ import numpy as np
 a = np.random.randint(100, size=(100))
 b = np.random.randint(100, size=(100))
 c = np.random.randint(100, size=(100))
-plt.scatter(a, b, c=c, cmap='winter')
+plt.scatter(a, b, c=c, cmap='winter_r')
 
 plt.colorbar()
 plt.show()
