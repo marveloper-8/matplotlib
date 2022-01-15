@@ -42,10 +42,13 @@ import matplotlib.pyplot as plt
 a = np.array([80, 85, 90, 95, 100, 105, 110, 115, 120, 125])
 b = np.array([240, 250, 260, 270, 280, 290, 300, 310, 320, 330])
 
+c = {'family': 'serif', 'color': 'blue', 'size': 20}
+d = {'family': 'serif', 'color': 'darkred', 'size': 15}
+
+
+plt.title("Sports Watch Data", fontdict=c)
+plt.xlabel("Average Pulse", fontdict=d)
+plt.ylabel("Calorie Burnage", fontdict=d)
+
 plt.plot(a, b)
-
-plt.title("Sports Watch Data")
-plt.xlabel("Average Pulse")
-plt.ylabel("Calorie Burnage")
-
 plt.show()
