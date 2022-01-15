@@ -100,5 +100,5 @@ import numpy as np
 a = np.array([35, 25, 25, 15])
 b = ['Apples', 'Banana', 'Cherries', 'Dates']
 
-plt.pie(a, labels=b)
+plt.pie(a, labels=b, startangle=90)
 plt.show()
