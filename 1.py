@@ -71,4 +71,5 @@ plt.subplot(1, 2, 2)
 plt.plot(a, b)
 plt.title('INCOME')
 
+plt.suptitle=('MY SHOP')
 plt.show()
