@@ -30,5 +30,5 @@ import numpy as np
 
 a = np.array([3, 8, 1, 10])
 
-plt.plot(a, c='#4caf50')
+plt.plot(a, c='hotpink')
 plt.show()
