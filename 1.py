@@ -44,6 +44,7 @@ b = np.array([240, 250, 260, 270, 280, 290, 300, 310, 320, 330])
 
 plt.plot(a, b)
 
+plt.title("Sports Watch Data")
 plt.xlabel("Average Pulse")
 plt.ylabel("Calorie Burnage")
 
