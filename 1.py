@@ -51,5 +51,5 @@ plt.xlabel("Average Pulse", fontdict=d)
 plt.ylabel("Calorie Burnage", fontdict=d)
 
 plt.plot(a, b)
-plt.grid(axis='y')
+plt.grid(color='green', linestyle='--', linewidth=0.5)
 plt.show()
