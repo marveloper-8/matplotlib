@@ -97,7 +97,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-a = np.random.normal(170, 10, 250)
+a = np.array([35, 25, 25, 15])
 
-plt.hist(a)
+plt.pie(a)
 plt.show()
