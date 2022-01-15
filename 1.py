@@ -85,11 +85,19 @@
 # plt.colorbar()
 # plt.show()
 
+# import matplotlib.pyplot as plt
+# import numpy as np
+
+# a = np.array(["A", "B", "C", "D"])
+# b = np.array([3, 8, 1, 10])
+
+# plt.barh(a, b, color='#4caf50', height=0.1)
+# plt.show()
+
 import matplotlib.pyplot as plt
 import numpy as np
 
-a = np.array(["A", "B", "C", "D"])
-b = np.array([3, 8, 1, 10])
+a = np.random.normal(170, 10, 250)
 
-plt.barh(a, b, color='#4caf50', height=0.1)
+plt.hist(a)
 plt.show()
