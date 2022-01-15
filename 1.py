@@ -30,5 +30,5 @@ import numpy as np
 
 a = np.array([3, 8, 1, 10])
 
-plt.plot(a, marker='o', ms='20', mec='hotpink', mfc='hotpink')
+plt.plot(a, linestyle='dotted')
 plt.show()
