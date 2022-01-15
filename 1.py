@@ -25,13 +25,26 @@
 # plt.plot(a, b)
 # plt.show()
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
+# import numpy as np
+
+# x1 = np.array([0, 1, 2, 3])
+# y1 = np.array([3, 8, 1, 10])
+# x2 = np.array([0, 1, 2, 3])
+# y2 = np.array([6, 2, 7, 11])
+
+# plt.plot(x1, y1, x2, y2)
+# plt.show()
+
 import numpy as np
+import matplotlib.pyplot as plt
 
-x1 = np.array([0, 1, 2, 3])
-y1 = np.array([3, 8, 1, 10])
-x2 = np.array([0, 1, 2, 3])
-y2 = np.array([6, 2, 7, 11])
+a = np.array([80, 85, 90, 95, 100, 105, 110, 115, 120, 125])
+b = np.array([240, 250, 260, 270, 280, 290, 300, 310, 320, 330])
 
-plt.plot(x1, y1, x2, y2)
+plt.plot(a, b)
+
+plt.xlabel("Average Pulse")
+plt.ylabel("Calorie Burnage")
+
 plt.show()
