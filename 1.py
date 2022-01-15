@@ -80,7 +80,7 @@ import numpy as np
 a = np.random.randint(100, size=(100))
 b = np.random.randint(100, size=(100))
 c = np.random.randint(100, size=(100))
-plt.scatter(a, b, c=c, cmap='Paired_r')
+plt.scatter(a, b, c=c, cmap='Pastel1')
 
 plt.colorbar()
 plt.show()
