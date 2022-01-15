@@ -60,13 +60,37 @@ import numpy as np
 a = np.array([0, 1, 2, 3])
 b = np.array([3, 8, 1, 10])
 
-plt.subplot(2, 1, 1)
+plt.subplot(2, 3, 1)
 plt.plot(a, b)
 
 a = np.array([0, 1, 2, 3])
 b = np.array([10, 20, 30, 40])
 
-plt.subplot(2, 1, 2)
+plt.subplot(2, 3, 2)
+plt.plot(a, b)
+
+a = np.array([0, 1, 2, 3])
+b = np.array([3, 8, 1, 10])
+
+plt.subplot(2, 3, 3)
+plt.plot(a, b)
+
+a = np.array([0, 1, 2, 3])
+b = np.array([10, 20, 30, 40])
+
+plt.subplot(2, 3, 4)
+plt.plot(a, b)
+
+a = np.array([0, 1, 2, 3])
+b = np.array([3, 8, 1, 10])
+
+plt.subplot(2, 3, 5)
+plt.plot(a, b)
+
+a = np.array([0, 1, 2, 3])
+b = np.array([10, 20, 30, 40])
+
+plt.subplot(2, 3, 6)
 plt.plot(a, b)
 
 plt.show()
