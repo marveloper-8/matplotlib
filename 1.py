@@ -80,7 +80,7 @@ import numpy as np
 a = np.random.randint(100, size=(100))
 b = np.random.randint(100, size=(100))
 c = np.random.randint(100, size=(100))
-plt.scatter(a, b, c=c, cmap='tab20b')
+plt.scatter(a, b, c=c, cmap='tab20')
 
 plt.colorbar()
 plt.show()
