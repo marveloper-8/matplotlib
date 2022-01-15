@@ -91,5 +91,5 @@ import numpy as np
 a = np.array(["A", "B", "C", "D"])
 b = np.array([3, 8, 1, 10])
 
-plt.bar(a, b, color='#4caf50')
+plt.bar(a, b, color='#4caf50', width=0.1)
 plt.show()
