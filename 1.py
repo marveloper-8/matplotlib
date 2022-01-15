@@ -79,10 +79,11 @@ import numpy as np
 
 a = np.array([5, 7, 8, 7, 2, 17, 2, 9, 4, 11, 12, 9, 6])
 b = np.array([99, 86, 87, 88, 111, 86, 103, 87, 94, 78, 77, 85, 86])
-plt.scatter(a, b, color='hotpink')
+c = np.array(['red', 'green', 'blue', 'yellow', 'pink', 'black', 'orange', 'purple', 'beige', 'brown', 'gray', 'cyan', 'magenta'])
+plt.scatter(a, b, color=c)
 
-a = np.array([2, 2, 8, 1, 15, 8, 12, 9, 7, 3, 11, 4, 7, 14, 12])
-b = np.array([100, 105, 84, 105, 90, 99, 90, 95, 94, 100, 79, 112, 91, 80, 85])
-plt.scatter(a, b, color='#88c999')
+# a = np.array([2, 2, 8, 1, 15, 8, 12, 9, 7, 3, 11, 4, 7, 14, 12])
+# b = np.array([100, 105, 84, 105, 90, 99, 90, 95, 94, 100, 79, 112, 91, 80, 85])
+# plt.scatter(a, b, color='#88c999')
 
 plt.show()
