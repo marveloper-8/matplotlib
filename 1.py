@@ -30,5 +30,5 @@ import numpy as np
 
 a = np.array([3, 8, 1, 10])
 
-plt.plot(a, 'o-.b')
+plt.plot(a, 'o-.c')
 plt.show()
