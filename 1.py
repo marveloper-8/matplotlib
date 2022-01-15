@@ -16,5 +16,5 @@ import numpy as np
 a = np.array([1, 8])
 b = np.array([3, 10])
 
-plt.plot(a, b)
+plt.plot(a, b, 'o')
 plt.show()
