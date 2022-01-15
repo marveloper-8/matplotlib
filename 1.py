@@ -29,6 +29,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 a = np.array([3, 8, 1, 10])
+b = np.array([6, 2, 7, 11])
 
-plt.plot(a, linewidth='20.5')
+plt.plot(a)
+plt.plot(b)
 plt.show()
