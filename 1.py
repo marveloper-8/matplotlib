@@ -80,7 +80,7 @@ import numpy as np
 a = np.random.randint(100, size=(100))
 b = np.random.randint(100, size=(100))
 c = np.random.randint(100, size=(100))
-plt.scatter(a, b, c=c, cmap='virdis')
+plt.scatter(a, b, c=c, cmap='virdis_r')
 
 plt.colorbar()
 plt.show()
